@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+:root{
+    --yellow-color: #0C457A;
+    --blue-color: #115695;
+    --bg-color: #F4DD4B;
+    --color-extra: #FDE68A;
+    --bg1-color: #FEFCE8;
+}
+
+.social-links{
+    list-style: none;
+    padding: 0.5rem 2rem;
+}
+
+.link{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.link-social:hover{
+    filter: invert(100%);
+}
+
+.list-item-inline{
+    display: inline;
+}
+
+body{
+    margin: 0px;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: var(--bg1-color);
+    background-image:url(images/minion-background.png);
+    background-position: center;
+}
+
+.center-container{
+    padding: 0.5rem;
+    background-color: var(--yellow-color);
+}
+
+.main-heading{
+    margin: auto;
+    text-align: center;
+    padding: 0.9rem;
+    /* background-color: var(--color-extra); */
+    font-size: 1cm;
+    color: #FDE68A;
+}
+
+.subheading{
+    font-weight: lighter;
+    padding: 1rem;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #FEF9C3;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-family: inherit;
+}
+
+#btn-transalte{
+    display: block;
+    padding: 2rem;
+}
+
+#txt-input{
+    margin: 1rem;
+    width: 600px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: #FEF9C3;
+    padding: 1rem;
+    font-family: inherit;
+    text-align: center;
+    /* opacity: 0.4; */
+    font-size: 1rem;
+}
+
+#output{
+    border: 2px solid black;
+    height: 103px;
+    width: 600px;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 2rem;
+    background-color: #FEF9C3;
+    /* opacity: 0.9; */
+}
+
+.footer{
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    background-color: var(--yellow-color);
+}
+
+.footer .link{
+    color: rgb(46, 29, 29);
+}
+
+.footer ul{
+    padding-inline-start:0px
+}
+
+.footer-header{
+    margin: auto;
+    text-align: center;
+    color: aqua;
+}
